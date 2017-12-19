@@ -1,0 +1,17 @@
+main {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#container {
+  display: grid;
+  grid-template-rows: 160px 160px 160px;
+  grid-template-columns: 160px 160px 160px;
+}
+
+.item {
+  border: 1px black solid;
+  font-size: 50px;
+  text-align: center;
+  line-height: 160px;
+}
